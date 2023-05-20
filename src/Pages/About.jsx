@@ -17,7 +17,7 @@ const About = () => {
 				<VStack>
 					<Image borderRadius='6px' maxH='300px' src='/images/thumb.jpg' alt='hari kotha cover' />
 					<Text fontSize={{ base: '3xl', md: '5xl' }} fontWeight='600'>
-						Hi, I'm HARI 👋
+						Hi, I'm Hugues 👋
 					</Text>
 					<Text fontSize={{ base: 'xl', md: '2xl' }}>
 						Passionate{' '}

@@ -2,4 +2,4 @@
 
 Personal portfolio built with `react.js` and `Chakra UI`
 
-Live: https://harikotha.netlify.app/
+Live: https://hugues.vighor.com/
