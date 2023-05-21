@@ -54,7 +54,7 @@ const Contact = () => {
 						and working together. If you'd like to get in touch with me, ping me on any of these
 						social media platforms
 					</Text>
-					<SimpleGrid spacing={{ base: '5', md: '8' }} columns={{ base: 2, md: 4 }}>
+					<SimpleGrid spacing={{ base: '5', md: '8' }} columns={{ base: 2, md: 3 }}>
 						{SOCIAL_LINKS.map((social) => (
 							<Link
 								href={social.link}

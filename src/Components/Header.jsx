@@ -1,10 +1,11 @@
 import { NavLink, useNavigate } from 'react-router-dom';
-import { useBreakpoint } from '@chakra-ui/react';
+import { useBreakpoint, Image } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/button';
 import { useColorMode, useColorModeValue } from '@chakra-ui/color-mode';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { Box, HStack, Text } from '@chakra-ui/layout';
 import { MOBILE_DEVICES, ROUTES } from '../utils/constants';
+import React from "react";
 
 const Header = () => {
 	const { colorMode, toggleColorMode } = useColorMode();
@@ -25,7 +26,7 @@ const Header = () => {
 		<Box
 			p={5}
 			background={useColorModeValue('white', 'gray.900')}
-			shadow='md'
+			shadow='sm'
 			borderRadius={{ base: 0, sm: 'md' }}
 			position={{ base: 'fixed', md: 'relative' }}
 			zIndex='1000'
@@ -33,7 +34,7 @@ const Header = () => {
 		>
 			<HStack justifyContent={{ base: 'space-between', md: 'space-around' }}>
 				<Box cursor='pointer' onClick={navigateHome}>
-					<Text>&lt;HARI KOTHA /&gt;</Text>
+					<Image w={"10%"} src="https://vighor.com/templates/hugue-theme-main/img/logo-primary.png"/>
 				</Box>
 
 				<HStack justifyContent='space-between' spacing={{ base: 4, md: 12 }}>

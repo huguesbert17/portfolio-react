@@ -8,10 +8,10 @@ export const ROUTES = [
 ];
 
 export const PAGE_TITLES = {
-	about: 'About | Hari Kotha',
-	skills: 'Skills | Hari Kotha',
-	projects: 'Projects | Hari Kotha',
-	contact: 'Contact | Hari Kotha',
+	about: 'About | Hugues Ebert',
+	skills: 'Skills | Hugues Ebert',
+	projects: 'Projects | Hugues Ebert',
+	contact: 'Contact | Hugues Ebert',
 };
 
 export const SKILLS = [
@@ -20,44 +20,50 @@ export const SKILLS = [
 	{ label: 'JavaScript', icon: 'javascript.svg' },
 	{ label: 'Bootstrap', icon: 'bootstrap.svg' },
 	{ label: 'React.js', icon: 'reactjs.svg' },
-	{ label: 'Redux', icon: 'redux.svg' },
+	{ label: 'PHP', icon: 'php.svg' },
+	{ label: 'Laravel', icon: 'laravel.svg' },
+	{ label: 'WordPress', icon: 'wordpress.svg' },
 	{ label: 'Node.js', icon: 'nodejs.svg' },
-	{ label: 'Express', icon: 'express.svg' },
 	{ label: 'MongoDb', icon: 'mongodb.svg' },
+	{ label: 'MySQL', icon: 'mysql.svg' },
+	{ label: 'Redis', icon: 'redis.svg' },
 ];
 
 export const PROJECTS = [
 	{
-		title: 'Tic-Tac-Toe',
-		stack: ['HTML5', 'CSS3', 'Javascript'],
-		thumbnail: 'tictactoejs.png',
-		github: 'https://github.com/harireddy7/TicTacToe',
-		live: 'https://tictactoejs-dev.netlify.app/',
+		title: 'Email Marketing',
+		stack: ['React.js', 'Chakra UI', 'Javascript'],
+		thumbnail: 'email-m.png',
+		github: '#',
+		live: '#',
+		underdev: true,
 	},
 	{
-		title: 'CricWise',
-		stack: ['React.js', 'Chakra UI'],
-		thumbnail: 'cricwise.png',
-		github: 'https://github.com/harireddy7/CricWise',
-		live: 'https://cricwise.netlify.app/',
+		title: 'Web Hosting Service',
+		stack: ['HTML5', 'CSS3', 'Javascript', "PHP", "Stripe API"],
+		thumbnail: 'vighor.png',
+		github: '#',
+		live: 'https://vighor.com',
 	},
 	{
-		title: 'Key User Solutions',
-		stack: ['Javascript', 'React.js', 'Material UI'],
-		thumbnail: 'keyusersolutions.jpg',
-		github: 'https://github.com/harireddy7/KeyUserSolutions',
-		live: 'https://keyusersolutions.netlify.app/',
+		title: 'School Management System',
+		stack: ['React.js', 'Laravel', "Bootstrap", "MS Graph API", "WebRTC"],
+		thumbnail: 'school-manag.png',
+		github: '#',
+		live: '#',
+        underdev: true,
 	},
 	{
-		title: 'WeatherJs',
-		stack: ['HTML5', 'CSS3', 'Bootstrap', 'Javascript'],
-		thumbnail: 'weatherjs.png',
-		github: 'https://github.com/harireddy7/WeatherJs',
-		live: 'https://weatherjs-dev.netlify.app/',
+		title: 'Crime report system',
+		stack: ['Laravel', 'React.js', 'HTML', "CSS", "MySQL"],
+		thumbnail: 'crime-report.png',
+		github: '#',
+		live: 'https://sovem.vighor.com/',
 	},
 	{
-		title: 'More under development...',
-		thumbnail: 'under-dev.svg',
+		title: 'Marketplace platform',
+		stack: ['PHP', 'JS', 'Stripe', "GCP", "K8s", "Redis", 'MongoDB', "MySQL"],
+		thumbnail: 'abreje-store.png',
 		github: '#',
 		live: '#',
 		underdev: true,
@@ -66,25 +72,25 @@ export const PROJECTS = [
 
 export const SOCIAL_LINKS = [
 	{
-		username: '/harikotha13',
-		link: 'https://www.linkedin.com/in/harikotha13/',
+		username: '/huguebert17',
+		link: 'https://www.linkedin.com/in/huguebert17/',
 		icon: 'linkedin.svg',
 	},
 	{
-		username: '/harikotha07',
-		link: 'https://twitter.com/harikotha07',
+		username: '/huguesbert17',
+		link: 'https://twitter.com/huguesbert17',
 		icon: 'twitter.svg',
 	},
 	{
-		username: '/harireddy7',
-		link: 'https://github.com/harireddy7',
+		username: '/huguesbert17',
+		link: 'https://github.com/huguesbert17',
 		icon: 'github.svg',
 	},
-	{
-		username: '/harireddy7',
-		link: 'https://dev.to/harireddy7',
-		icon: 'devto.png',
-	},
+	// {
+	// 	username: '/harireddy7',
+	// 	link: 'https://dev.to/harireddy7',
+	// 	icon: 'devto.png',
+	// },
 ];
 
 export const PAGE_LINKS = ['/about', '/skills', '/projects', '/contact'];

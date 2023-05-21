@@ -93,7 +93,7 @@ const Projects = () => {
 					>
 						projects
 					</Text>{' '}
-					i worked on so far!
+					I worked on so far!
 				</Text>
 			</Center>
 			<Box p={{ base: 3, md: 10 }}>
