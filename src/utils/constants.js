@@ -31,6 +31,14 @@ export const SKILLS = [
 
 export const PROJECTS = [
 	{
+		title: 'Flight deal website',
+		stack: ['React.js', 'Chakra UI', 'Node.js', "Redis"],
+		thumbnail: 'flight-deal-website.png',
+		github: '#',
+		live: '#',
+		underdev: true,
+	},
+	{
 		title: 'Email Marketing',
 		stack: ['React.js', 'Chakra UI', 'Javascript'],
 		thumbnail: 'email-m.png',
@@ -50,15 +58,15 @@ export const PROJECTS = [
 		stack: ['React.js', 'Laravel', "Bootstrap", "MS Graph API", "WebRTC"],
 		thumbnail: 'school-manag.png',
 		github: '#',
-		live: '#',
-        underdev: true,
+		live: 'https://staging.vighor.com/',
+        underdev: false,
 	},
 	{
 		title: 'Crime report system',
 		stack: ['Laravel', 'React.js', 'HTML', "CSS", "MySQL"],
 		thumbnail: 'crime-report.png',
 		github: '#',
-		live: 'https://sovem.vighor.com/',
+		live: 'https://konektem.org/',
 	},
 	{
 		title: 'Marketplace platform',
