@@ -34,9 +34,9 @@ export const PROJECTS = [
 		title: 'Flight deal website',
 		stack: ['React.js', 'Chakra UI', 'Node.js', "Redis"],
 		thumbnail: 'flight-deal-website.png',
-		github: '#',
+		github: 'https://github.com/huguesbert17/soflight',
 		live: '#',
-		underdev: true,
+		underdev: false,
 	},
 	{
 		title: 'Email Marketing',
@@ -58,7 +58,7 @@ export const PROJECTS = [
 		stack: ['React.js', 'Laravel', "Bootstrap", "MS Graph API", "WebRTC"],
 		thumbnail: 'school-manag.png',
 		github: '#',
-		live: 'https://staging.vighor.com/',
+		live: 'https://mividah.vighor.com/',
         underdev: false,
 	},
 	{
